@@ -1,0 +1,18 @@
+html, body {
+  color: $black;
+
+}
+a {
+  text-decoration: none;
+  color:$black;
+  font-weight: 700;
+}
+// sections container estilo
+.section {
+  border-top: solid 2px $light-grey;
+  border-bottom: solid 2px $light-grey;
+
+  &__border-none {
+    border-top: solid 2px $light-grey;
+  }
+}
